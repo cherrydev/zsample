@@ -1,0 +1,19 @@
+{
+  "name": "zillowsample",
+  "author": "Avi Cherry",
+  "email": "avi@cherrydev.com",
+  "version": "0.0.0",
+  "engines" : { "node" : ">=6.10.3" },
+  "bin": "./bin/fileSummary",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/.bin/jasmine"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.6.0",
+    "jasmine-spec-reporter": "^4.1.0",
+    "streamtest": "^1.2.2"
+  }
+}
